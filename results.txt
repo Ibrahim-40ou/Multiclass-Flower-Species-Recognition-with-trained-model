@@ -1,0 +1,25 @@
+============================================================
+FLOWER CLASSIFICATION PROJECT RESULTS
+============================================================
+
+Date: 2026-01-29 02:43:33
+
+Model Architecture:
+  - Input: (128, 128) RGB images
+  - Conv Layer 1: 3x3 kernel, stride=1, 32 filters, ReLU
+  - Conv Layer 2: 3x3 kernel, stride=1, 64 filters, ReLU
+  - FC Layer: 128 units, ReLU
+  - Output: 5 classes, Softmax
+  - Optimizer: Adam (lr=0.001)
+
+Training Configuration:
+  - Epochs: 50
+  - Batch Size: 32
+  - Train Samples: 3499
+  - Val Samples: 500
+  - Test Samples: 1000
+
+Final Results:
+  - Test Loss: 0.6414
+  - Test Accuracy: 0.8360
+============================================================
